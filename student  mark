@@ -1,0 +1,35 @@
+#include<stdio.h>
+  int main()
+  {
+      int marks;
+    
+      printf("\n enter the student marks :");
+      scanf("%d",&marks);
+      
+      if(marks>=90){
+      printf("rank:a\n");
+      }
+      else if (marks>=80)
+      {
+       printf("rank:b\n");
+      }
+      else if(marks>=70){
+          printf("rank:c\n");
+      }
+      else if(marks>=60)
+      {      printf("rank:d\n");
+      }
+        else if(marks<=45){
+          printf("fail\n");
+      }
+      
+     
+     return 0; 
+  }
+  ------------------------------------------
+  output:
+   enter the student marks :85
+rank:b
+
+
+=== Code Execution Successful ===
