@@ -12,4 +12,8 @@
      
      return 0; 
   }
-
+------------------------------------------------------
+Output :
+ enter the radius of a circle:55
+ area of a circle:9498
+circumference of a circle:345
