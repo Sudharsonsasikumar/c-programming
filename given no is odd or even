@@ -1,0 +1,23 @@
+#include<stdio.h>
+  int main()
+  {
+      int a;
+    
+      printf("\n enter the no :",a);
+      scanf("%d",&a);
+      if(a%2==0){
+          printf("given no is even");
+          
+      }
+      else
+      {
+          printf("given no is odd");
+      }
+     return 0; 
+  }
+-----------------------------------------
+output:
+ enter the no :7
+given no is odd
+
+=== Code Execution Successful ===
