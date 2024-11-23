@@ -1,0 +1,17 @@
+#include<stdio.h>
+
+int main()
+    {
+      int x=108,y,sum=0;
+      printf("enter the number row:");
+      scanf("%d",&y);
+       sum=x/y;
+       printf("%d  is seate",sum);
+      return 0;
+    }
+==================================
+output:
+enter the number row:35
+3  is seate
+
+=== Code Execution Successful ===
