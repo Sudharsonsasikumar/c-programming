@@ -1,0 +1,23 @@
+#include<stdio.h>
+    int main()
+    {
+    int n;
+    printf("enter the value of n:",n);
+    scanf("%d",&n);
+    if(n/2==0)
+    {
+        printf("\neven");
+        
+    }else{
+        printf("\nodd");
+    }
+    
+    return 0;
+    }
+====================================
+output:
+enter the value of n:5
+
+odd
+
+=== Code Execution Successful ===
